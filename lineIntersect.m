@@ -1,5 +1,5 @@
-function [x0, y0] = lineIntersect(a1, b1, a2, b1)
-% function [x0, y0] = lineIntersect(a1, b1, a2, b1)
+function [x0, y0] = lineIntersect(a1, b1, a2, b2)
+% function [x0, y0] = lineIntersect(a1, b1, a2, b2)
 % finds the intersection between 2 lines y = a1*x + b1 and y = a2*x + b2
 
 

@@ -5,6 +5,7 @@ function out = movingAverage(t, x, t_window)
 %         x(data)
 %         t_window (seconds)
 % OUTPUT: the moving averaged value
+% written by DD Tran. Last updated Aug 9, 2013. 
 
 t_end = t(end); 
 

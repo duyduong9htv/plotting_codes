@@ -4,7 +4,8 @@ function h = plotline(a, x, x0, y0, varargin)
 % with linear coefficient a, going through (x0, y0). 
 % Eg: x = linspace(-3, 3, 100); 
 %figure; plotline(1, x, 2, 3, '--r'); 
-
+% 
+% Last edited Aug 10, 2013 by DD Tran. 
 
 
 y = a*(x - x0) + y0; 

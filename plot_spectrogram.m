@@ -19,8 +19,6 @@ end
 h = imagesc(c, b, 10*log10(abs(d))); 
 axis xy; 
 
-h = imagesc(c, b, 20*log10(abs(a))); 
-axis xy; 
 xlabel('Time (seconds)'); 
 ylabel('Frequency (Hz)'); 
 colorbar; 

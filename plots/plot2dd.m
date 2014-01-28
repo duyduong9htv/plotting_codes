@@ -4,3 +4,4 @@ function h = plot2dd(x, varargin)
 % Eg. x = rand(10, 2); 
 % plot2dd(x, '*', 'color', 'r', 'markersize', 5); 
 h = plot(x(:, 1), x(:, 2), varargin{:}); 
+end 

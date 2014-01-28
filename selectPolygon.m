@@ -1,5 +1,5 @@
-function [xselect, yselect, inds] = selectPolygon(x, y, xname, yname)
-% function [xselect, yselect, inds] = selectPolygon(x, y, xname, yname)
+function [xselect, yselect, inds] = selectPolygon(x, y, xname, yname, varargin)
+% function [xselect, yselect, inds] = selectPolygon(x, y, xname, yname, grid)
 % selects the points that lie within a polygon drawn by the user on a
 % figure. 
 % INPUTS
